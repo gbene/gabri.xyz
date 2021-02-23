@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="author" content="author">
+
+
+
+<meta name="description" content="A brief guide to setup KaTeX">
+
+
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Math Typesetting" />
+<meta name="twitter:description" content="Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries." />
+
+
+<link rel="canonical" href="https://gabri.xyz/post/math-typesetting/">
+
+
+<link media="screen" rel="stylesheet" href='https://gabri.xyz/css/common.css'>
+<link media="screen" rel="stylesheet" href='https://gabri.xyz/css/content.css'>
+<link media="screen" rel="stylesheet" href='https://gabri.xyz/css/highlight.css'>
+
+
+
+<title>Math Typesetting - Gabriele Benedetti</title>
+
+
+
+
+<script>
+  
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+      processEscapes: true,
+      processEnvironments: true,
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    }
+  };
+</script>
+
+<script async defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+
+
+  <link rel="stylesheet" href='https://gabri.xyz/css/single.css'>
+</head>
+
+<body>
+  <div id="wrapper">
+  
+    <header id="header">
+  <h1>
+    <a href="https://gabri.xyz/">Gabriele Benedetti</a>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/projects/">Projects</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/post/">Archive</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/about/">About</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/cv/">CV</a>
+    </span>
+    
+  </nav>
+</header>
+
+    <main id="main" class="post">
+    <hr class="solid">
+      
+      
+      
+      
+      <h1>Math Typesetting</h1>
+      <div class="content">
+        <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>{<span class="kw">{</span> <span class="kw">if</span> <span class="ex">or</span> .Params.math .Site.Params.math <span class="kw">}</span>}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>{<span class="kw">{</span> <span class="ex">partial</span> <span class="st">&quot;math.html&quot;</span> . <span class="kw">}</span>}</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>{<span class="kw">{</span> <span class="ex">end</span> <span class="kw">}</span>}</span></code></pre></div>
+<ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project’s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Block math: <span class="math display">\[
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
+\]</span></p>
+      </div>
+      <div class="paginator">
+        
+        <a></a>
+        
+        
+        <a class="link" href="https://gabri.xyz/post/placeholder-text/">next →</a>
+        
+      </div>
+      <div class="comment">
+        
+      </div>
+      
+    </main>
+    <footer id="footer">
+  <div>
+    <span>© 2021</span><span> - Gabriele Benedetti</span> <span>| On <a class=link href=https://github.com/gbene>GitHub</a></span>
+  </div>
+
+  <div>
+    <span>Powered by </span>
+    <a class="link" href="https://gohugo.io/">Hugo</a>
+    <span>| Theme </span>
+    <a class="link" href="https://github.com/queensferryme/hugo-theme-texify">TeXify</a>
+  </div>
+</footer>
+
+  </div>
+  
+
+
+
+
+
+</body>
+
+</html>

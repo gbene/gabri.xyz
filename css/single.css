@@ -1,0 +1,9 @@
+#main > h1 {
+    text-align: center;
+    padding: 2rem 0;
+    color: #FAFAFA
+}
+
+#main > div + .content {
+    padding-top: 1rem;
+}
