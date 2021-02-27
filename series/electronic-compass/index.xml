@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronic Compass on Gabriele Benedetti</title>
+    <link>https://gabri.xyz/series/electronic-compass/</link>
+    <description>Recent content in Electronic Compass on Gabriele Benedetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gabri.xyz/series/electronic-compass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Level module</title>
+      <link>https://gabri.xyz/post/level_module/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/level_module/</guid>
+      <description>&lt;p&gt;Emulating a level bubble on the Adafruit OLED display.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Compass module</title>
+      <link>https://gabri.xyz/post/compass_module/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/compass_module/</guid>
+      <description>&lt;p&gt;Displaying azimuth variation on the Adafruit OLED display.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electronic Compass</title>
+      <link>https://gabri.xyz/post/ec/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/ec/</guid>
+      <description>&lt;p&gt;The electronic compass has the aim to create a low-cost, open-source electronic geological compass.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gbene/Electronic-Compass/&#34;&gt;https://github.com/gbene/Electronic-Compass/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

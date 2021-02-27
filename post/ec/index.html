@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="author" content="author">
+
+
+
+<meta name="description" content="The electronic compass has the aim to create a low-cost, open-source electronic geological compass.
+https://github.com/gbene/Electronic-Compass/">
+
+
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Electronic Compass" />
+<meta name="twitter:description" content="The electronic compass has the aim to create a low-cost, open-source electronic geological compass.
+https://github.com/gbene/Electronic-Compass/" />
+
+
+<link rel="canonical" href="https://gabri.xyz/post/ec/">
+
+
+<link media="screen" rel="stylesheet" href='https://gabri.xyz/css/common.css'>
+<link media="screen" rel="stylesheet" href='https://gabri.xyz/css/content.css'>
+<link media="screen" rel="stylesheet" href='https://gabri.xyz/css/highlight.css'>
+
+
+
+<title>Electronic Compass - Gabriele Benedetti</title>
+
+
+
+
+<script>
+  
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+      processEscapes: true,
+      processEnvironments: true,
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    }
+  };
+</script>
+
+<script async defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+
+
+  <link rel="stylesheet" href='https://gabri.xyz/css/single.css'>
+</head>
+
+<body>
+  <div id="wrapper">
+  
+    <header id="header">
+  <h1>
+    <a href="https://gabri.xyz/">Gabriele Benedetti</a>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/series/">Projects</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/post/">Archive</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/about/">About</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/cv/">CV</a>
+    </span>
+    
+  </nav>
+</header>
+
+    <main id="main" class="post">
+    <hr class="solid">
+      
+      
+      
+      
+      <h1>Electronic Compass</h1>
+      <div class="content">
+        <p>The electronic compass has the aim to create a low-cost, open-source electronic geological compass.</p>
+<p><a href="https://github.com/gbene/Electronic-Compass/">https://github.com/gbene/Electronic-Compass/</a></p>
+<h2 id="the-premise">The premise</h2>
+<p>This idea came to mind while doing university field trips in which we learned how to use a geological compass and how to take measurements (e.g. dip direction/dip) needed for geological interpretation and reconstruction of planes, folds etc.. A lot of time is lost, and error is introduced, in saving the appropriate txt file with the appropriate format and tabulation. This project has the aim to create a low-cost, open-source electronic geological compass that reduces the time needed to take a measurement, write it down and afterwards rewrite in a txt to be used in other programs (Stereonet, wintensor…) by creating a tool that works as a normal compass but can save the measurements locally in the appropriate files for different softwares.</p>
+<p>The planned compass features are:</p>
+<ul>
+<li>Measure dip and dip direction of a plane</li>
+<li>Measure strike slip, trend and plunge</li>
+<li>Different measures profiles (direction/dip, trend/plunge etc..)</li>
+<li>Automatic txt files save</li>
+<li>Acceletometer and magnetometer calibration</li>
+</ul>
+<h2 id="components-list">Components list</h2>
+<p>The Electronic Compass components are searched to be the most cost-effective and easy to solder available that I could find. I provide the links from where the components are purchased but some are europe based (mostly Germany) so check if worldwide shipping is convenient or not.</p>
+<table>
+<caption>Table of components</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Component Name</th>
+<th style="text-align: center;">Quantity</th>
+<th style="text-align: center;">Price</th>
+<th style="text-align: right;">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Adafruit adalogger M0</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">26€</td>
+<td style="text-align: right;"><a href="https://thepihut.com/products/adafruit-feather-m0-adalogger">ThePiHut</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GY-61 ADXL335 acceletometer</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">6.79€</td>
+<td style="text-align: right;"><a href="https://www.az-delivery.de/en/products/gy-61-adxl335-beschleunigungssensor-3-axis-neigungswinkel-modul-1?variant=20332875546720">AZ-Delivery</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">128x32 Oled display</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">6.29€</td>
+<td style="text-align: right;"><a href="https://thepihut.com/products/adafruit-feather-m0-adalogger">AZ-Delivery</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GY-271 QMC5883L magnetometer</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">5.79€</td>
+<td style="text-align: right;"><a href="https://www.az-delivery.de/en/products/gy-271-kompassmodul-kompass-magnet-sensor-fuer-arduino-und-raspberry-pi?variant=18912984432736">AZ-Delivery</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SD card</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">may vary</td>
+<td style="text-align: right;"><a href="https://www.amazon.com/">Amazon</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1200mAh 3.7V LiPo battery</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">5.36€</td>
+<td style="text-align: right;"><a href="https://www.welectron.com/LiPo-Pouch-Battery-503562-37V-1200mAh">Welectron</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Potentiometer</td>
+<td style="text-align: center;">x1</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: right;"><a href="https://www.amazon.com/">Amazon</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Buttons</td>
+<td style="text-align: center;">x?</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: right;"><a href="https://www.amazon.com/">Amazon</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="software-used">Software used</h2>
+<p>To have a truly open-source project the software used is 100% free and open-source from the CAD project files to the software used to code and flash the code on the adalogger chip.</p>
+<table>
+<caption>Software used</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Type</th>
+<th style="text-align: center;">Software program</th>
+<th style="text-align: center;">Source link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">CAD</td>
+<td style="text-align: center;">FreeCAD</td>
+<td style="text-align: center;"><a href="https://www.freecadweb.org/">FreeCAD</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Electronics</td>
+<td style="text-align: center;">KiCad EDA</td>
+<td style="text-align: center;"><a href="https://kicad.org/">KiCad</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Code environment and upload</td>
+<td style="text-align: center;">ArduinoIDE</td>
+<td style="text-align: center;"><a href="https://www.arduino.cc/en/software">Arduino</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="licences">Licences</h2>
+<p>Since the E.C. project covers hardware and software licences that cover both are necessary. You can find the choosen licences in the “Licences folder” in PDF and .txt format.</p>
+<table>
+<caption>Licences used</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Type</th>
+<th style="text-align: center;">License name</th>
+<th style="text-align: center;">Source link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Software</strong></td>
+<td style="text-align: center;">GNU General Public License v3.0 or later</td>
+<td style="text-align: center;"><a href="https://spdx.org/licenses/GPL-3.0-or-later.html">SPDX</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>Hardware</strong></td>
+<td style="text-align: center;">CERN-OHL-S-2.0 or any later version</td>
+<td style="text-align: center;"><a href="https://ohwr.org/cern_ohl_s_v2.txt">OHWR</a></td>
+</tr>
+</tbody>
+</table>
+<p>The copyrights to both hardware and software are explicited in the copyright.pdf and copyright.md files and the original copies are stored in the License folder. If you want to apply any kind of change you <strong>always need to log it in the changes.md file</strong> and include all the original source and copyright files as per licences.</p>
+      </div>
+      <div class="paginator">
+        
+        <a class="link" href="https://gabri.xyz/post/fossils/">← prev</a>
+        
+        
+        <a class="link" href="https://gabri.xyz/post/compass_module/">next →</a>
+        
+      </div>
+      <div class="comment">
+        
+      </div>
+      
+    </main>
+    <footer id="footer">
+  <div>
+    <span>© 2021</span><span> - Gabriele Benedetti</span> <span>| On <a class=link href=https://github.com/gbene>GitHub</a></span>
+  </div>
+
+  <div>
+    <span>Powered by </span>
+    <a class="link" href="https://gohugo.io/">Hugo</a>
+    <span>| Theme </span>
+    <a class="link" href="https://github.com/queensferryme/hugo-theme-texify">TeXify</a>
+  </div>
+</footer>
+
+  </div>
+  
+
+
+
+
+
+</body>
+
+</html>

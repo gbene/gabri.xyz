@@ -6,10 +6,83 @@
     <description>Recent content in Posts on Gabriele Benedetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gabri.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical point cloud analysis</title>
+      <link>https://gabri.xyz/post/pointcl_pca/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/pointcl_pca/</guid>
+      <description>&lt;p&gt;Discriminate automatically sets of joints of rock outcrops by applying PCA to point cloud data.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fast Fourier Transform (FFT)</title>
+      <link>https://gabri.xyz/post/fft_module/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/fft_module/</guid>
+      <description>&lt;p&gt;Applying the Fast Fourier Transform to denoise seismic traces data.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Seispy</title>
+      <link>https://gabri.xyz/post/seispy/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/seispy/</guid>
+      <description>&lt;p&gt;Visual SUNT style application written in python&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Level module</title>
+      <link>https://gabri.xyz/post/level_module/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/level_module/</guid>
+      <description>&lt;p&gt;Emulating a level bubble on the Adafruit OLED display.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Compass module</title>
+      <link>https://gabri.xyz/post/compass_module/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/compass_module/</guid>
+      <description>&lt;p&gt;Displaying azimuth variation on the Adafruit OLED display.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electronic Compass</title>
+      <link>https://gabri.xyz/post/ec/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/ec/</guid>
+      <description>&lt;p&gt;The electronic compass has the aim to create a low-cost, open-source electronic geological compass.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gbene/Electronic-Compass/&#34;&gt;https://github.com/gbene/Electronic-Compass/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>3D paleontological objects</title>
+      <link>https://gabri.xyz/post/fossils/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/fossils/</guid>
+      <description>&lt;p&gt;Methods applyed to obtain a 3D accurate model of fossils using photogrammetry.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The oedometer test </title>
+      <link>https://gabri.xyz/post/oedometer/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/oedometer/</guid>
+      <description>&lt;p&gt;Resolve and elaborate the oedometric raw data using python.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Markdown Syntax Guide</title>

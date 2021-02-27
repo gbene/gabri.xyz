@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geotechnics on Gabriele Benedetti</title>
+    <link>https://gabri.xyz/series/geotechnics/</link>
+    <description>Recent content in Geotechnics on Gabriele Benedetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gabri.xyz/series/geotechnics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The oedometer test </title>
+      <link>https://gabri.xyz/post/oedometer/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/post/oedometer/</guid>
+      <description>&lt;p&gt;Resolve and elaborate the oedometric raw data using python.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

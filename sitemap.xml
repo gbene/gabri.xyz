@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gabri.xyz/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/series/photogrammetry/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/series/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/pointcl_pca/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gabri.xyz/about/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +43,62 @@
   </url>
   
   <url>
+    <loc>https://gabri.xyz/post/fft_module/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/series/geophysics/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/seispy/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/series/electronic-compass/</loc>
+    <lastmod>2020-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/level_module/</loc>
+    <lastmod>2020-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/compass_module/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/ec/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/fossils/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/series/geotechnics/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabri.xyz/post/oedometer/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gabri.xyz/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gabri.xyz/</loc>
+    <loc>https://gabri.xyz/categories/cacca/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -49,11 +124,6 @@
   
   <url>
     <loc>https://gabri.xyz/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabri.xyz/post/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Gabriele Benedetti</title>
+    <link>https://gabri.xyz/series/</link>
+    <description>Recent content in Series on Gabriele Benedetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gabri.xyz/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Photogrammetry</title>
+      <link>https://gabri.xyz/series/photogrammetry/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/series/photogrammetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geophysics</title>
+      <link>https://gabri.xyz/series/geophysics/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/series/geophysics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronic Compass</title>
+      <link>https://gabri.xyz/series/electronic-compass/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/series/electronic-compass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geotechnics</title>
+      <link>https://gabri.xyz/series/geotechnics/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabri.xyz/series/geotechnics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
